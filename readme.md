@@ -10,3 +10,11 @@ There are actually features I want to work on, but I'll write tests first where 
 - Implement as advanced function
 - Have parameter to control to which characters to apply the combining codepoint
 - Fix it so the string can be longer than the number of combining characters
+
+## Example Output
+
+It may not look right in the console or ISE, but if you copy and paste it into a browser text field or word processor it will look "right". Note that piping this to `clip` doesn't work because `clip.exe` doesn't handle Unicode.
+
+	Import-Module FormatSilly
+    Format-Silly "The quick brown fox jumped over the lazy dog."
+    # T̝h̲e͜ qͮu͐i̾c̨k̵ bͫr̤o̞ẅ́n̿ f̉o͗x͡ j̭u̔mͯp̹eͬdͨ o͇v̛e͖r̒ t̚h͋é l̮a̍z̙y͌ ḏógͭ.
