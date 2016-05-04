@@ -30,4 +30,4 @@ It may not look right in the console or ISE, but if you copy and paste it into a
 - Did a TDD project
 - Made and published a Powershell module
 - Integrated AppVeyor automated testing and badging
-- Made a silly thing in which others have shown and interest
+- Made a silly thing in which others have shown an interest
