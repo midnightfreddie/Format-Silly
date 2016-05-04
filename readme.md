@@ -1,3 +1,6 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/hfpmel46q7r7at9s?svg=true)](https://ci.appveyor.com/project/midnightfreddie/format-silly)
+
+
 # But Why?
 
 This is just one of those silly things that for some reason I suddenly had a need to apply unnecessary Unicode combining accents/glyphs to strings.
