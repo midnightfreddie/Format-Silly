@@ -14,6 +14,7 @@ Describe 'Format-Silly' {
 Describe 'Format-Zalgo' {
     It 'Returns string with each character having trailing combining diacritics' {
         Format-Zalgo "To invoke the hive-mind representing chaos." |
+            # This match is quite slow...this test takes almost 7 seconds
             Should MatchExactly "T\p{Mn}+o\p{Mn}+ \p{Mn}+i\p{Mn}+n\p{Mn}+v\p{Mn}+o\p{Mn}+k\p{Mn}+e\p{Mn}+ \p{Mn}+t\p{Mn}+h\p{Mn}+e\p{Mn}+ \p{Mn}+h\p{Mn}+i\p{Mn}+v\p{Mn}+e\p{Mn}+-\p{Mn}+m\p{Mn}+i\p{Mn}+n\p{Mn}+d\p{Mn}+ \p{Mn}+r\p{Mn}+e\p{Mn}+p\p{Mn}+r\p{Mn}+e\p{Mn}+s\p{Mn}+e\p{Mn}+n\p{Mn}+t\p{Mn}+i\p{Mn}+n\p{Mn}+g\p{Mn}+ \p{Mn}+c\p{Mn}+h\p{Mn}+a\p{Mn}+o\p{Mn}+s\p{Mn}+\.\p{Mn}+"
     }
 }
